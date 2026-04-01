@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Opportunities | Kuwait 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <style>
+        :root {
+            --primary: #0a4275;
+            --accent: #00d4ff;
+            --white: #ffffff;
+            --glass: rgba(255, 255, 255, 0.15);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1550951298-5c7b95a66bfc?q=80&w=1600&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: var(--white);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            background: var(--glass);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            margin: 20px 0;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .hero-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Styling Logo Baru */
+        .logo-container {
+            margin-bottom: 20px;
+        }
+        
+        .main-logo {
+            width: 120px; /* Ukuran bisa disesuaikan */
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .main-logo:hover {
+            transform: scale(1.05);
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #fff, var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+        }
+
+        .badge {
+            background: #ff4b2b;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 15px;
+            animation: pulse 2s infinite;
+        }
+
+        .job-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .info-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            transition: transform 0.3s ease, background 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .info-card i {
+            color: var(--accent);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .benefit-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .benefit-list li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .benefit-list li i {
+            margin-right: 10px;
+            font-size: 1rem;
+            color: #2ecc71;
+            margin-bottom: 0;
+        }
+
+        .apply-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .btn-apply {
+            background: var(--accent);
+            color: #000;
+            padding: 15px 50px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.4);
+            display: inline-block;
+        }
+
+        .btn-apply:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(0, 212, 255, 0.7);
+            background: #fff;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 20px; }
+            .hero-section h1 { font-size: 1.8rem; }
+            .main-logo { width: 100px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container animate__animated animate__fadeIn">
+    <div class="hero-section">
+        <div class="logo-container">
+            <a href="">
+                <img src="logo.jpeg" alt="Logo Perusahaan" class="main-logo">
+            </a>
+        </div>
+
+        <span class="badge">Hiring Now</span>
+        <h1>Build Your Future in Kuwait</h1>
+        <p>Join a world-class team in the heart of the Gulf. We are looking for talented professionals to fill various roles.</p>
+    </div>
+
+    <div class="job-grid">
+        <div class="info-card">
+            <i class="fas fa-briefcase"></i>
+            <h3>Available Positions</h3>
+            <ul style="list-style: none; padding: 0; font-size: 0.95rem;">
+                <li>• Senior Project Engineer</li>
+                <li>• Registered Nurses</li>
+                <li>• IT Specialist</li>
+                <li>• Hospitality Managers</li>
+            </ul>
+        </div>
+
+        <div class="info-card">
+            <i class="fas fa-user-check"></i>
+            <h3>Requirements</h3>
+            <ul class="benefit-list">
+                <li><i class="fas fa-check-circle"></i> 3+ Years Experience</li>
+                <li><i class="fas fa-check-circle"></i> Degree in Related Field</li>
+                <li><i class="fas fa-check-circle"></i> English Proficiency</li>
+                <li><i class="fas fa-check-circle"></i> Valid Passport</li>
+            </ul>
+        </div>
+
+        <div class="info-card">
+            <i class="fas fa-gift"></i>
+            <h3>Benefits</h3>
+            <ul class="benefit-list">
+                <li><i class="fas fa-dollar-sign"></i> Tax-Free Salary</li>
+                <li><i class="fas fa-home"></i> Free Accommodation</li>
+                <li><i class="fas fa-plane"></i> Annual Air Ticket</li>
+                <li><i class="fas fa-heartbeat"></i> Full Medical Cover</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="apply-container">
+        <p>Are you ready to take the next step?</p>
+        <a href="mailto:careers@kuwaitjobs.com" class="btn-apply">APPLY NOW <i class="fas fa-arrow-right"></i></a>
+        <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.7;">
+            Official Recruitment Partner | Kuwait City, State of Kuwait
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
